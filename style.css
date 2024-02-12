@@ -1,0 +1,61 @@
+body {
+    margin: 0;
+    font-family: 'Meiryo UI','ヒラギノ角ゴシック','Hiragino Sans',sans-serif;
+    width: 100vh;
+}
+header {
+    position: absolute;
+    top: 0;
+    width: 100vh;
+    border-bottom:  1px solid #333;
+}
+.header-title {
+    text-align: center;
+    margin: 0;
+    padding: 2vh 0;
+}
+.header-title::first-letter {
+    color: red;
+}
+.container {
+    position: absolute;
+    top: 10vh;
+    left: 5vh;
+    display: flex;
+    width: 100%;
+}
+.issue-area {
+    display: flex;
+    margin: 10px 0;
+}
+.issue {
+    border-bottom: 1px solid #333;
+}
+.result {
+    margin-left: 3vh;
+    opacity: 0;
+}
+.active {
+    opacity: 1;
+}
+.inactive {
+    opacity: 0.5;
+}
+.result-buttom {
+    border: 1px solid #333;
+    background-color: #1397fd;
+    border-radius: 20px;
+    color: #fff;
+    font-size: 12px;
+    cursor: pointer;
+    margin: 0 20px;
+}
+
+.reset-area {
+    position: absolute;
+    bottom: 10vh;
+    left: 20vh;
+    border: 1px solid #333;
+    padding: 5px 10px;
+    cursor: pointer;
+}
